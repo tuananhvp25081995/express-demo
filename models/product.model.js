@@ -7,6 +7,6 @@ var productSchema = new mongoose.Schema({
   price: String
 });
 
-var User = mongoose.model('User', productSchema , 'products');
+var Product = mongoose.model('Product', productSchema , 'products');
 
-module.exports = User;
+module.exports = Product;
